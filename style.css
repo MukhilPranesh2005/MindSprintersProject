@@ -1,0 +1,124 @@
+/* Reset & base */
+body, h1, h2, h3, p, ul {
+  margin: 0; padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: #f5f7f6;
+  color: #2a2a2a;
+  line-height: 1.5;
+}
+a {
+  color: #2e7d32;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: #2e7d32;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+header input[type="search"] {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+}
+
+nav {
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem;
+  gap: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.featured-products {
+  background: white;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.1);
+  margin-bottom: 2rem;
+}
+.featured-products p {
+  font-style: italic;
+  color: #777;
+}
+
+.impact-stats {
+  background: #e6f4ea;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+.impact-stats div {
+  text-align: center;
+}
+.impact-stats div strong {
+  display: block;
+  font-size: 2rem;
+  color: #2e7d32;
+}
+.impact-stats div span {
+  font-weight: 600;
+}
+
+.how-it-works {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+.how-it-works h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+.steps {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.step {
+  flex: 1;
+  border: 1px solid #2e7d32;
+  border-radius: 6px;
+  padding: 1rem;
+  background: #f9fff9;
+}
+.step h3 {
+  color: #1b4d1b;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin: 3rem 0 1rem;
+}
+footer a {
+  margin: 0 0.5rem;
+}
